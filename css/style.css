@@ -1,0 +1,194 @@
+* {
+    text-decoration: none;
+
+}
+
+body {
+    background-color: rgb(6, 0, 35);
+    background-color: rgb(159, 249, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+header {
+    background: rgb(19, 23, 73);
+}
+
+.logo {
+    height: 90px;
+    width: 260px;
+    object-fit: cover;
+    object-position: 80% 40%;
+
+    margin: 5px;
+    border-radius: 30px;
+    margin-left: 10px;
+    overflow: none;
+
+    cursor: pointer;
+
+
+}
+
+.navbar {
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: skyblue;
+    background-color: rgb(19, 23, 73);
+}
+
+.navv {
+    padding: 10px;
+    
+    display: flex;
+    gap: 40px;
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+
+.navv a {
+    font-weight: 600;
+    color: azure;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    transition: all 0.3s ease 0s;
+    border-radius: 10px;
+}
+
+.navv a:hover {
+    font-weight: bolder;
+    color: aqua;
+    background-color: darkkhaki;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+h1 {
+
+    color: hsl(194, 100%, 44%);
+    text-align: center;
+    font-size: 80px;
+    border-color: antiquewhite;
+}
+
+h3 {
+    margin-top: -30px;
+    text-align: center;
+    color: hsl(166, 100%, 37%);
+    font-size: 30px;
+}
+
+.title {
+    margin: 80px 200px;
+    margin-top: 170px;
+    border: 4px solid rgb(255, 255, 255);
+    backdrop-filter: blur(2px);
+}
+
+
+.hero_section {
+    padding-top: 0.1px;
+    background-image: url(/images/Enterprise-Boeing_747.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px -100px;
+    background-size: 100%;
+    padding-bottom: 15%;
+
+}
+
+
+
+.about_section {
+    padding: 10px;
+    background-color: hsl(0, 0%, 100%);
+
+
+
+}
+
+#about {
+    font-size: 40px;
+    margin-left: 20px;
+    line-height: 30px;
+}
+
+#about:hover {
+    font-size: 40px;
+    margin-left: 20px;
+    line-height: 30px;
+}
+
+.abt {
+    line-height: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+.usa_img img {
+    border: 2px solid salmon;
+    width: 400px;
+
+
+}
+
+.usa_img {
+    display: flex;
+    flex-wrap: wrap;
+
+
+    min-height: auto;
+    min-width: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+
+
+
+}
+
+.usa_img img:nth-child(2) {
+    border: 8px dashed black;
+    position: relative;
+}
+
+.russian_img {
+    display: flex;
+    flex-wrap: wrap;
+
+    min-height: auto;
+    min-width: auto;
+    justify-content: center;
+    align-items: last baseline;
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.russian_img img{
+   width: 450px;
+}
+
+.russian_img img:hover{
+    border: 10px dashed rgb(255, 0, 0);
+}
+
+
+
+
+
+footer {
+    background-color: aliceblue;
+    margin-top: 40px;
+    line-height: 10px;
+    padding: 60px;
+}
